@@ -1,0 +1,52 @@
+.house{
+    display: flex;
+    justify-content: center;
+}
+.dep{
+    display:flex;
+width: 80vw;
+margin-top: 6vh;
+margin-bottom: 6vh;
+}
+.dep .casa1{
+    width: 25vw;
+}
+.casa1 .bloque{
+    text-align: center;
+    border:1px rgba(46, 46, 46, 0.144) solid;
+}
+.casa1 h1{
+    color: #2980B9;
+}
+
+.dep .casa2{
+    width: 60vw;
+}
+
+.casa2 h1{
+    margin: 5% 10%;
+}
+.casa2 table{
+    margin: 10%;
+}
+
+
+.custom-table {
+    min-width: 70%;
+  }
+  .custom-table thead tr,
+  .custom-table thead th {
+    border-top: none;
+    border-bottom: none !important;
+  }
+  .custom-table tbody th,
+  .custom-table tbody td {
+    color: #777;
+    font-weight: 400;
+    font-weight: 300;
+  }
+
+  .tall a{
+    text-decoration: none;
+    font-size: 1.2em;
+  }

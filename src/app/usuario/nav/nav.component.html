@@ -1,0 +1,24 @@
+<nav class="navbar">
+  <div class="espacio"></div>
+  <div class="nav-link">
+    <div class="logo">
+      <a href="usuario/home"><img src="../../../assets/logo.png" alt="" /></a>
+    </div>
+
+    <ul>
+      <div class="logo">
+        <a routerLink="home">&nbsp;&nbsp;Proyecto Integrador</a>
+      </div>
+    </ul>
+  </div>
+  <div class="cta-btn" *ngIf="user; else elseBlock">
+    <a routerLink="login" class="btn s-btn">Login</a>
+  </div>
+
+  <ng-template #elseBlock
+    ><div class="cta-btn">
+      <a (click)="salir()" class="btn s-btn">Salir</a>
+    </div></ng-template
+  >
+</nav>
+<div class="space"></div>

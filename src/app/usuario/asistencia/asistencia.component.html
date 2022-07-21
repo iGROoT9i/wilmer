@@ -1,0 +1,26 @@
+<div class="contn">
+    <button class="btn btn-dark" routerLink="/usuario/taller">Atras</button>
+  
+    <h1>Registrar asistencia beneficiarios</h1>
+  
+    <div class="vacio"></div>
+  </div>
+
+<div class="papa">
+    <div class="mama">
+<form action="">
+    
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">DNI</label>
+        <input type="number" [(ngModel)]="dni" class="form-control" id="exampleFormControlInput1"  />
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">fecha inicio</label>
+        <input type="date" [(ngModel)]="fecha" class="form-control" id="exampleFormControlInput1"  />
+    </div>
+    
+    <button class="btn btn-dark" (click)="postform(form)">Enviar</button>
+</form>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+.contn{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh 0vh;
+}
+
+.papa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mama{
+    width: 70vw;
+    display: flex;
+}
+.mama form{
+    display: flex;
+}
+.mama form .hijo1{
+    width: 50%;
+    margin-top: 5%;
+    margin-right: 8%;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mama form .hijo2{
+    width: 50%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
